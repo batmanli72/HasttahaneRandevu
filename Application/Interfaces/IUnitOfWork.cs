@@ -18,4 +18,20 @@ namespace Application.Interfaces
         Task CommitTransactionAsync();
         Task RollbackTransactionAsync();
     }
+
+    public interface IAppointmentRepository
+    {
+    }
+
+    public interface IDepartmentRepository
+    {
+    }
+
+    public interface IPatientRepository
+    {
+    }
+
+    public interface IDoctorRepository
+    {
+    }
 }
